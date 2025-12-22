@@ -5,7 +5,7 @@ using namespace std;
 
 void counter(int n, string t_name){
     for(int i=0; i<=n; i++){
-        cout<<"\n"<<i<<"th iteration from "<<t_name<<" \n";
+        cout<<"\n"<<            i<<"th iteration from "<<t_name<<" \n";
     }
     cout<<"\nThread id : "<<this_thread::get_id()<<"\n";
     cout<<"\nFunction from "<<t_name<<" ended\n";

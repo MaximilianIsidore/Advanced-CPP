@@ -1,4 +1,5 @@
 .vscode
 *.exe
 *.txt
+*.bin
 **/build/
